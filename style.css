@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+#s{
+    width: 50%;
+}
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.nav{
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav > li {
+  position: relative;
+  display: block;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+.nav > li.disabled > a {
+  color: #999;
+}
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#wrapper {
+    width: 100%;
+    background:#202020;
+}
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 100px;
+    background:#F3F3F3; 
+}
+.user-image {
+    margin: 25px auto;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+max-height:170px;
+max-width:170px;
+}
+
+.navbar-cls-top .navbar-brand {
+	color: #fff;
+background: #C90000;
+width: 260px;
+text-align: center;
+height: 60px;
+font-size: 30px;
+font-weight: 700;
+}
+
+.sidebar-collapse .nav > li > a {
+	color:#fff;
+	background:#202020;
+	text-shadow:none;
+}
+.sidebar-collapse > .nav > li > a {
+	padding:15px 10px;
+}
+.sidebar-collapse > .nav > li {
+	border-bottom: 1px solid rgba(107, 108, 109, 0.19);
+}
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+	background:#0A0A0A;
+	outline:0;
+}
+.navbar-side {
+	border:none;
+	background-color: #202020;
+}
+.navbar-cls-top {
+	background:#4D4D4D;
+	border-bottom:none;	
+}
+.navbar-cls-top .navbar-brand:hover {
+background: #C90000;
+color:#fff;
+}
+.navbar-default {
+border:0px solid black;
+     
+}
+.navbar-header {
+    background: #A70303;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: #B40101;
+}
+#page-wrapper{
+               margin: 0 0 0 260px;
+        padding: 15px 30px;
+        min-height: 1200px;
+}
+.navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+}
